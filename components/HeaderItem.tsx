@@ -1,8 +1,4 @@
-interface HItem {
-    title:string,
-    Icon: any,
-}
-
+import { HItem } from "../typing"
 
 function HeaderItem({title, Icon}: HItem) {
   return (
